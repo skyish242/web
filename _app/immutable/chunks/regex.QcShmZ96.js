@@ -1,0 +1,1 @@
+function p(i,r){const e={},f={},s={$$scope:1};let c=i.length;for(;c--;){const n=i[c],o=r[c];if(o){for(const t in n)t in o||(f[t]=1);for(const t in o)s[t]||(e[t]=o[t],s[t]=1);i[c]=o}else for(const t in n)s[t]=1}for(const n in f)n in e||(e[n]=void 0);return e}const u=/^((http|https):\/\/)/;export{u as H,p as g};
